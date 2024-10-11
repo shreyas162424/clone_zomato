@@ -53,16 +53,16 @@ header ul li a:hover {
     position: relative;
     text-align: center;
     padding: 50px 20px;
-    background-color: #FFEBEE; /* Light red background */
+    /* Light red background */
     
     /* Correct path to background image */
-    background-image: url('img/zomato.png'); /* Path to background image */
+    background-image: url('/clone_zomato/zomato.png'); /* Path to background image */
     background-size: cover;  /* Ensure the image covers the entire section */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
     height: 100%; /* Full viewport height */
     width: 100%; /* Ensure full width */
-   
+   opacity:500%;
 }
 
 .hero-content {
@@ -70,6 +70,7 @@ header ul li a:hover {
     /* Ensures content is above the background */
     padding: 50px 20px;
     color: #fff; /* White text for readability */
+   
 }
 
 .hero-content p {
